@@ -7,7 +7,7 @@ fetch("https://github.com/dan-collins-dev/dummy-data-fetching-repo/blob/main/dat
     return response;
 })
 
-.then(data => console.log(data))
+.then(data => console.log(data.firstName))
 .catch(error => console.error(error));
     
 let user = {
