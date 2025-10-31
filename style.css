@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    background-color: aqua;
+}
+
+body {
+    background: papayawhip;
+    box-sizing: border-box;
+    
+}
+
+.button-container {
+    background-color: aqua;
+    text-align: center;
+    
+}
+
+.button {
+    margin-bottom: 5px;
+    margin-top: 5px;
+   
+
+}
