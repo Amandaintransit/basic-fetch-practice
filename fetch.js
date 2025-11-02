@@ -1,4 +1,5 @@
-
+const allUsers = document.getElementById('GetAllUsers')
+allUsers.addEventListener('click', createCards)
  
 
 const UserUrl = "https://dan-collins-dev.github.io/dummy-data-fetching-repo/data/users.json";
@@ -25,5 +26,3 @@ fetch(UserUrl)
     .catch(error => console.error('Error', error));
 
 }
-
-createCards();
