@@ -1,16 +1,17 @@
+
 h1 {
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(82, 184, 184);
 }
 
 body {
     background: papayawhip;
     box-sizing: border-box;
-    
+    font-size: 20px;
 }
 
 .button-container {
-    background-color: aqua;
+    background-color: rgb(82, 184, 184);
     text-align: center;
     
 }
@@ -20,4 +21,11 @@ body {
     margin-top: 5px;
    
 
+}
+.card {
+  border: 2px solid;
+    background-color: aliceblue;
+    min-height: 40%;
+    max-width: 100%;
+    
 }
